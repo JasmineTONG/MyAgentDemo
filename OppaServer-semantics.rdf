@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+
+<rdf:RDF
+
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:cc="http://creativecommons.org/ns#"
+xmlns:s="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:owl="http://www.w3.org/2002/07/owl#"
+xmlns:oppans="http://fudan.edu.cn/SoftwareSchool/SementicWeb/OppaServer#">
+
+<rdf:Description
+rdf:about="http://fudan.edu.cn/SoftwareSchool/SementicWeb/OppaServer/listPhotosByStarId">
+  <oppans:id>listPhotosByStarId</oppans:id>
+  <oppans:wsStyle>restfulGet</oppans:wsStyle>
+  <oppans:function>StarPhotoDisplay</oppans:function>
+  <oppans:paramNum>1</oppans:paramNum>
+  <oppans:responseType>application/json</oppans:responseType>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://fudan.edu.cn/SoftwareSchool/SementicWeb/OppaServer/userLogin">
+  <oppans:id>userLogin</oppans:id>
+  <oppans:wsStyle>restfulPost</oppans:wsStyle>
+  <oppans:function>login</oppans:function>
+  <oppans:paramNum>2</oppans:paramNum>
+  <oppans:responseType>application/json</oppans:responseType>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://fudan.edu.cn/SoftwareSchool/SementicWeb/OppaServer/userRegister">
+  <oppans:id>userRegister</oppans:id>
+  <oppans:wsStyle>restfulPost</oppans:wsStyle>
+  <oppans:function>register</oppans:function>
+  <oppans:paramNum>3</oppans:paramNum>
+  <oppans:responseType>application/json</oppans:responseType>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://fudan.edu.cn/SoftwareSchool/SementicWeb/OppaServer/searchPhotosByName">
+  <oppans:id>searchPhotosByName</oppans:id>
+  <oppans:wsStyle>restfulGet</oppans:wsStyle>
+  <oppans:function>StarPhotoDisplay</oppans:function>
+  <oppans:paramNum>1</oppans:paramNum>
+  <oppans:responseType>application/json</oppans:responseType>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://fudan.edu.cn/SoftwareSchool/SementicWeb/OppaServer/listAllStars">
+  <oppans:id>listAllStars</oppans:id>
+  <oppans:wsStyle>restfulGet</oppans:wsStyle>
+  <oppans:function>StarDisplay</oppans:function>
+  <oppans:paramNum>1</oppans:paramNum>
+  <oppans:responseType>application/json</oppans:responseType>
+</rdf:Description>
+
+</rdf:RDF>
